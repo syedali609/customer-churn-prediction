@@ -84,4 +84,4 @@ if st.button("Predict"):
         st.write(f"Churn Probability: **{probability:.0%}**")
     else:
         st.success(f"✅ This customer is likely to STAY")
-        st.write(f"Churn Probability: **{probability:.0%}**")
+        st.write(f"Churn Probability: **{probability:.0%}**") 
