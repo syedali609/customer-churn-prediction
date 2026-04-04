@@ -1,9 +1,17 @@
+import pickle
+import os
 import streamlit as st
 import joblib
 import numpy as np
 
 # Load the saved model
-model = joblib.load("/Users/syedalihussain/Documents/customer_churn/models/saved_models/xgb_model.pkl")
+base_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+model = joblib.load(os.path.join(base_path, "models", "saved_models", "xgb_model.pkl"))
+
+with open(os.path.join(base_path, "models", "saved_models", "encoders.pkl"), "rb") as f:
+    encoders = pickle.load(f)
+# model = joblib.load("/Users/syedalihussain/Documents/customer_churn/models/saved_models/xgb_model.pkl")
 
 # Page title
 st.title("Customer Churn Prediction")
