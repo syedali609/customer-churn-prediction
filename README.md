@@ -55,6 +55,6 @@ streamlit run app/frontend/app.py
 ---
 
 ## 👤 Author
-**Syed Ali Hussain** — Aspiring Data Analyst & Data Engineer
+**Syed Ali Hussain** — Aspiring Data Engineer & Data Analyst
 📧 hussainsyedali97@gmail.com | 📍 Bhopal, India
-🔗 [GitHub](https://github.com/syedali609)
+[LinkedIn] (www.linkedin.com/in/syed-ali-68482729a)
