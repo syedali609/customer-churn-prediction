@@ -56,4 +56,4 @@ streamlit run app/frontend/app.py
 
 ## Author
 **Syed Ali Hussain** — BBA-BIA Student | Aspiring Data Engineer & Analyst 
-[LinkedIn](www.linkedin.com/in/syed-ali-68482729a)
+[LinkedIn](https://www.linkedin.com/in/syed-ali-68482729a)
